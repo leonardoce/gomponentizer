@@ -30,11 +30,9 @@ func Cmd() *cobra.Command {
 				return err
 			}
 
-			fmt.Printf(`
-			package hello
-
-			func hello() {
-			return `)
+			fmt.Println("package hello")
+			fmt.Println("func hello() {")
+			fmt.Print("return ")
 			spit(node, os.Stdout)
 			fmt.Print("nil\n}")
 			return nil
