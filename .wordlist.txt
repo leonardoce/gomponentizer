@@ -1,3 +1,4 @@
+Changelog
 Gomcomponentizer
 nosec
 sidebarToggle
